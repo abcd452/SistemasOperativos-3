@@ -19,7 +19,8 @@ int main(int argc, char** argv)
         printf("Soy el hijo y mi identificador es: %d\n",getpid());
     }else
     {
-        int rc_wait = wait(NULL);
+        int status;
+        int rc_wait = wait(&status);
         printf("Soy el padre, mi identificador es: %d y el de mi hijo es: %d \n",getpid(),rc_wait);    
     }
     
