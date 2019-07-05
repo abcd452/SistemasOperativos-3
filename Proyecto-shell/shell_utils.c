@@ -95,7 +95,7 @@ void dir(char* directory,char defaultDir[])
             {
                 dp = opendir(defaultDir);
             }else{
-                opendir(directory);
+                dp = opendir(directory);
             }
             if(dp != NULL)
             {
@@ -108,6 +108,6 @@ void dir(char* directory,char defaultDir[])
                 (void) closedir(dp);                
             }else
             {
-                fprintf(stderr,"Can't open directory");
+                fprintf(stderr,"Can't open directory or directory does not exist\n");
             }
 }
