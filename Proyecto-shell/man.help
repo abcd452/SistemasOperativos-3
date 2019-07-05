@@ -1,0 +1,20 @@
+ManiacShell version 0.1
+These shell commands are defined internally.  Type `help' to see this list.
+
+Command_name	usage		result 
+     cd         cd <directory>  Change the current default directory to <directory>
+
+Command_name	usage		result 
+     clr	clr             Clear the screen
+
+Command_name	usage		result 
+     dir	dir <directory> List the contents of directory <directory>	 
+
+Command_name	usage		result 
+   environ	environ		List all the enviroment strings	
+
+Command_name	usage		result 
+   pause	pause		Pause operation of the shell until 'Enter' is pressed	
+
+Command_name	usage		result 
+   quit		quit		Quit the shell
