@@ -40,7 +40,7 @@ int pauseOperation()
 {
     int back  = 1;
     printf("Press Enter to continue ... \n");
-    int firstChar = 10;
+    int firstChar = 10; 
     int newChar;
     while (back)
     {
